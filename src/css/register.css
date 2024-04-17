@@ -1,0 +1,30 @@
+.register-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+} 
+
+.form-item__text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-item__input {
+    width: 200px;
+    margin-left: 20px;
+}

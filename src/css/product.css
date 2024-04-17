@@ -1,0 +1,34 @@
+.product_page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product_page__image {
+    width: 300px;
+}
+
+.product_page__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product_page__description {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.product_page__button {
+    border: 0;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(227, 75, 75);
+    border-radius: 15px;
+}
+
+.product_page__button:hover {
+    opacity: 0.8;
+}
