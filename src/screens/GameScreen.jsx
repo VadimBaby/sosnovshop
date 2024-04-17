@@ -3,9 +3,11 @@ import Header from "../components/Header"
 
 import '../css/game.css';
 
-import iPhone from "../images/iPhone.png"
-import Keyboard from "../images/keyboard.png"
-import Headphones from "../images/headphones.png"
+import bonus1000 from "../images/bonus1000.jpg"
+import bonus500 from "../images/bonus500.jpg"
+import bonus300 from "../images/bonus300.jpg"
+import bonus100 from "../images/bonus100.jpg"
+import empty from "../images/empty.jpg"
 
 import Pointer from "../images/pointer.png"
 import { useDispatch } from "react-redux";
@@ -17,9 +19,11 @@ export default function GameScreen() {
     const cells = 31
 
     const items = [
-        {name: 'iPhone', img: iPhone, chance: 10, bonus: 0},
-        {name: 'Keyboard', img: Keyboard, chance: 20, bonus: 3000},
-        {name: 'Headphones', img: Headphones, chance: 30, bonus: 5000}
+        {name: '1000', img: bonus1000, chance: 10, bonus: 1000},
+        {name: '500', img: bonus500, chance: 20, bonus: 500},
+        {name: '300', img: bonus300, chance: 30, bonus: 300},
+        {name: '100', img: bonus100, chance: 30, bonus: 100},
+        {name: 'ничего', img: empty, chance: 50, bonus: 0}
     ]
 
     let isStarted = false
