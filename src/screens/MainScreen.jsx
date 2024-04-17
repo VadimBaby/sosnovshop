@@ -8,9 +8,8 @@ import BasketComponent from "../components/BasketComponents"
 import '../css/main.css'
 import { Button } from "react-bootstrap"
 
-import iPhone from "../images/iPhone.png"
-import keyboard from "../images/keyboard.png"
-import cart from "../images/cart.png"
+import skidka from "../images/skidka.jpg"
+import birthday from "../images/birthday.png"
 
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
@@ -55,7 +54,7 @@ export default function MainScreen() {
       }
 
       const images = [
-        iPhone, keyboard, cart
+        skidka, birthday
       ];
 
     if (userId) {
