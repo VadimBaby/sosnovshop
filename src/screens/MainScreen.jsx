@@ -9,7 +9,7 @@ import '../css/main.css'
 import { Button } from "react-bootstrap"
 
 import skidka from "../images/skidka.jpg"
-import birthday from "../images/birthday.png"
+import birthday from "../images/birthday.jpg"
 
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
