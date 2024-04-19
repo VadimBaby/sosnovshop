@@ -24,21 +24,15 @@ export default function MainScreen() {
     const userId = useSelector(state => state.user)
 
     function up() {
-        setSortedProducts((products) => {
-            return products.toSorted((el1, el2) => el1.price > el2.price)
-        })
+        setSortedProducts(products.toSorted((el1, el2) => el2.price - el1.price))
     }
 
     function down() {
-        setSortedProducts((products) => {
-            return products.toSorted((el1, el2) => el1.price < el2.price)
-        })
+        setSortedProducts(products.toSorted((el1, el2) => el1.price - el2.price))
     }
 
     function rate() {
-        setSortedProducts((products) => {
-            return products.toSorted((el1, el2) => el1.rate < el2.rate)
-        })
+        setSortedProducts(products.toSorted((el1, el2) => el2.rate - el1.rate))
     }
 
     function reset() {
